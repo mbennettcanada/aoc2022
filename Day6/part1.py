@@ -1,6 +1,4 @@
 data = open("input.txt", "r").read()
-checker = []
-position = 0
 for i,char in enumerate(data):
     if i > 3:
         llist = data[i-3:i]
